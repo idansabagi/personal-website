@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Container helpers */
+.container {
+  @apply mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+/* Glass card */
+.glass {
+  @apply bg-white/70 dark:bg-white/5 backdrop-blur-md border border-white/20 dark:border-white/10 shadow-xl;
+}
+
+/* Fancy gradient text */
+.gradient-text {
+  @apply bg-gradient-to-r from-primary-400 via-primary-500 to-primary-700 bg-clip-text text-transparent;
+}
