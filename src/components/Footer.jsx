@@ -5,7 +5,7 @@ export default function Footer() {
         <p>© {new Date().getFullYear()} Idan Sabagi. All rights reserved.</p>
         <div className="flex items-center gap-4">
           <a className="hover:text-primary-600 dark:hover:text-primary-400" href="https://www.linkedin.com/in/idan-sabagi/" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a className="hover:text-primary-600 dark:hover:text-primary-400" href="mailto:idansabagi5@gmail.com">Email</a>
+          <a className="hover:text-primary-600 dark:hover:text-primary-400" href="/contact">Contact</a>
         </div>
       </div>
     </footer>
