@@ -27,5 +27,4 @@ npm run preview
 - `src/pages/` — pages: Home, About, Specialties, Projects, Resume, Contact
 
 ## Contact
-- Email: idansabagi5@gmail.com
 - LinkedIn: https://www.linkedin.com/in/idan-sabagi/
